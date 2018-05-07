@@ -1,0 +1,330 @@
+@font-face {
+    font-family: 'BebasNeueBook';
+    src: url('../fonts/BebasNeueBook.ttf');
+}
+
+@font-face {
+    font-family: 'BebasNeueBold';
+    src: url('../fonts/BebasNeueBold.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../fonts/Roboto-Light.ttf');
+}
+
+#resume{
+      background-color: #12171d;
+}
+
+#main-img{
+  position: absolute;
+  z-index: 0;
+}
+
+.left-icon img,
+.right-icon img{
+  width: 100%;
+  display: inline-block;
+}
+
+.no-margin{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.no-padding{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+#main-info{
+  z-index: 3;
+  position: relative;
+  padding-top: 716px;
+}
+
+#main-info .rectangle-bg{
+  /* background: url('../img/Rectangle 1.png') no-repeat ; */
+  display: flex;
+  margin-top: -27rem;
+  background-color: #162844;
+  margin-left: 38.5%;
+  width: 70%;
+  display: block;
+/* box-shadow: 7px 3px 23px darkgrey; */
+  color: white;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  text-align: center;
+  margin-left: auto;
+margin-right: auto;
+
+}
+
+#main-info .rectangle-bg .photo img{
+  width: 100%;
+  border-radius: 50%;
+  margin-top: -9rem;
+}
+
+#main-info .rectangle-bg .name{
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+
+}
+
+#main-info .rectangle-bg .name h1{
+  font-size: 33px;
+  text-transform: uppercase;
+}
+
+#main-info .rectangle-bg h4{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.pers-info p{
+  color: #6ea1dd;
+}
+
+.pers-info div{
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.sozial .facebook .icon-f{
+  background: url('../img/Polygon.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 1rem;
+  height: 50px;
+}
+
+.sozial .icon-lIn{
+  background: url('../img/Polygon2.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 1rem;
+  height: 50px;
+}
+
+#main-info .responsibilities,
+#main-info .main-title,
+#main-info .desc{
+  color: white;
+}
+
+.main-title{
+  text-transform: uppercase;
+  color: white;
+  font-family: 'BebasNeueBook';
+  font-size: 54px;
+  letter-spacing: 5px;
+  text-align: center;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+#main-info .title{
+color:#3f6fb8;
+}
+
+#main-info .timeline{
+  color:#556268;
+}
+
+
+#main-info .experiences
+{
+  text-align: right;
+}
+#main-info .experiences
+{
+    padding-left: 3rem;
+    padding-right: 0rem;
+}
+#main-info .education{
+  padding-right: 3rem;
+      padding-left: 0rem;
+}
+
+#main-info .experiences,
+#main-info .education{
+  line-height: 2rem;
+}
+
+#main-info .education{
+  text-align: left;
+}
+
+#main-info .interests span,
+#main-info .skills span{
+  display: block;
+  font-family: Roboto;
+font-size: 25px;
+color: white;
+line-height: 64px;
+}
+
+#main-info .education .uni,
+#main-info .experiences .work {
+  margin-bottom: 2rem;
+}
+
+.title{
+  font-family: 'BebasNeueBold';
+  font-size: 31px;
+  letter-spacing: 2px;
+}
+
+.timeline{
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.desc{
+  font-family: 'Roboto-Light';
+  line-height: 32px;
+  font-size: 19px;
+  letter-spacing: 0.5px;
+}
+
+#main-info .rectangle-bg .name h1{
+  font-family: 'BebasNeueBold';
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 42px;
+}
+
+#main-info .rectangle-bg .intro {
+  font-family: Roboto;
+  line-height: 31px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+
+#main-info .pers-info{
+  font-family: BebasNeueBold;
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+
+#main-info .sozial{
+  font-family: Roboto;
+  line-height: 23px;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.sozial .icon {
+  transition: transform 1s ease-in-out;
+  transform: rotate(0deg);
+}
+
+.sozial .icon:hover{
+  transform:rotate(180deg);
+}
+
+.waveballs .ball{
+  background-color: #4d6378;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.2rem;
+  transition: transform 1s ease-in-out;
+  transform: translateY(0);
+}
+
+.waveballs.intro .ball{
+  background-color:#84bbf4;
+}
+
+.waveballs{
+      margin-bottom: 1rem;
+}
+
+.main-title:hover .ball{
+  animation: jump 1s ease-in-out;
+}
+
+@keyframes jump {
+  0%{
+    transform: translateY(0);
+
+  }
+  50%{
+    transform: translateY(-30px);
+
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+.active, .no-active{
+  height: 20px;
+  width: 20px;
+}
+.active{
+  background: url('../img/Polygonfull.png') no-repeat;
+  background-size: contain;
+}
+
+.no-active{
+  background: url('../img/Polygonempty.png') no-repeat;
+  background-size: contain;
+}
+
+#main-info .skills span.active,
+#main-info  .skills span.no-active,
+#main-info  .interests span.no-active,
+#main-info  .interests span.active{
+  display: inline-block;
+}
+
+
+.interests span>span{
+    display: inline-block;
+}
+
+
+
+@media only screen and (max-width: 1380px) {
+    #main-info {
+        padding-top: 570px;
+    }
+    #main-info .rectangle-bg{
+      margin-top: -4rem;
+    }
+}
+@media only screen and (max-width: 1027px) {
+    #main-info {
+        padding-top: 300px;
+    }
+    #main-info .rectangle-bg {
+      margin-top: -6rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+  #main-info {
+      padding-top: 300px;
+  }
+  #main-info .rectangle-bg{
+    margin-top: -4rem;
+  }
+
+  #main-img{
+    display: none;
+  }
+}
