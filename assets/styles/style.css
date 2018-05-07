@@ -304,10 +304,10 @@ line-height: 64px;
         padding-top: 570px;
     }
     #main-info .rectangle-bg{
-      margin-top: -4rem;
+      margin-top: -20rem;
     }
 }
-@media only screen and (max-width: 1027px) {
+@media only screen and (max-width: 1109px) {
     #main-info {
         padding-top: 300px;
     }
@@ -326,5 +326,12 @@ line-height: 64px;
 
   #main-img{
     display: none;
+  }
+}
+
+@media only screen and (max-width: 7680px) {
+  #main-info .education.col-sm-12.col-xs-12{
+    padding-left: 10px;
+    padding-right: 15px;
   }
 }
